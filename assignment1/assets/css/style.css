@@ -17,6 +17,7 @@ body {
 	max-width: 960px;
 	margin: 0 auto;
 	clear: both;
+	padding:0 20px 20px 20px;
 }
 h1, 
 h2,
@@ -45,6 +46,10 @@ h3 {
 
 /*header*/
 
+header{
+	padding-top: 0px;
+}
+
 #masthead {
 	background: #fff;
 	margin: 0 0 30px;
@@ -54,7 +59,9 @@ h3 {
 	border-bottom: 2px solid #ccc;
 	position: fixed;
 	width: 100%;
+
 }
+
 #logo {
 	width: 250px;
 	height: 90px;
@@ -219,7 +226,7 @@ input[type=submit] {
 @media screen and (max-width: 980px){
 	.container {
 			width: 100%;
-			padding:20px;
+			padding:0 20px 20px 20px;
 	}
 
 	.main-section{
@@ -279,7 +286,7 @@ input[type=submit] {
 		width: 100%;
 		padding:0px;
 		margin:0 auto;
-		padding:20px;
+		
 	
 	}
 
@@ -347,7 +354,7 @@ input[type=submit] {
 		clear:both;
 		position: static;
 		margin-bottom:0;
-		margin-top: 0
+		
 	}
 
 	.container{
